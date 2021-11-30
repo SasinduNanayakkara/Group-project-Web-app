@@ -1,0 +1,176 @@
+     .title {
+  margin: 3% 6%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  background-color: #d2ecf9;
+  height: 100px;
+  width: 88%;
+  padding: 0px;
+}
+.title1 {
+  padding-top: 20px;
+}
+
+.search-bar {
+  float: right;
+  margin-top: 3%;
+  margin-left: 20%;
+}
+#search-text {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 30%;
+  background: #f1f1f1;
+}
+.search-btn {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196f3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+#search-text:hover {
+  background: #0b7dda;
+}
+
+#search-text::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.log {
+  /* height: 35px;
+  width: 90px;
+  border-radius: 12px;
+  margin-left: 250px;
+  margin-right: 60px; */
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196f3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  position: static;
+}
+/* navigation bar */
+
+.nav-bar {
+  padding: 0% 6%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1891ac;
+}
+
+.footer-ul{
+  background-color: #1f5f8b   ;
+  margin-bottom: 10px;
+}
+.nav-start {
+  padding-left: 1%;
+}
+
+li {
+  float: left;
+  padding: 0 18%;
+  padding-left: 0%;
+}
+.last {
+  padding-right: 0%;
+  padding-right: 0px;
+  /* margin-right: 1%; */
+}
+
+li a {
+  display: block;
+
+  text-align: center;
+  padding: 14px 0px;
+
+  text-decoration: none;
+}
+
+/* footer section */
+.contact {
+  width: 250px;
+  line-height: 2rem;
+}
+
+/* footer icons */
+.visa {
+  width: 5%;
+  height: 5%;
+}
+.master-card {
+  width: 5%;
+  height: 4%;
+}
+
+.row {
+  padding: 3% 6% 0%;
+}
+.row1 {
+  padding: 0% 7%;
+}
+
+.card {
+  padding-right: 5%;
+  color: white;
+}
+.card-image {
+  padding-right: 0px;
+  width: 300px;
+  height: 100px;
+  padding-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+/* footer icons */
+.visa {
+  width: 100px;
+  height: 100px;
+}
+.master-card {
+  width: 80px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+/* social media section */
+
+.social-items {
+  padding-left: 60px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  padding-left: 180px;
+}
+
+.text {
+  text-align: center;
+  background-color: #253b6e;
+  color: white;
+}
+.title1{
+  height:0px;
+  padding:0%;
+  margin:0%;
+}
+
+
