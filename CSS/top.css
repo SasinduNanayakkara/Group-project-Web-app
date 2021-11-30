@@ -1,0 +1,119 @@
+
+
+/* top brands*/
+
+.rowxy {
+  padding: 3% 6% 0%;
+}
+
+.img00005{
+	background-repeat: no-repeat;	
+    background-size: 100%;
+    height:600px;
+    background-position:center;
+    margin:0px;
+    text-transform: uppercase;
+	
+}
+.h003{
+	
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+
+/* Slideshow container */
+.ba {
+ 
+  position: relative;
+  margin: auto;
+}
+
+
+
+/* Number text (1/3 etc) */
+.noText001{
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot001 {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade001 {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade001 {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade001 {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.bb{
+	
+	
+}
+
+
+
+.v002{
+	margin:0px;
+	padding: 5px;
+}
+
+
+
+.bc {
+  display: flex;
+}
+
+/* Create four equal columns that sits next to each other */
+.bc1 {
+  flex: 25%;
+  padding: 5px;
+}
+
+
+
+.bc1 {
+  margin: 5px;
+  border: 1px solid #000000;
+  float: left;
+  width: 50px;
+  background-color:#FFFFFF;
+  background-position: center;
+  box-shadow: 1px 1px 10px 5px #C0C0C0;
+  height:100px;
+}
+
+div.bc1:hover {
+  border: 1px solid #008080;
+  box-shadow: 1px 1px 10px 5px #FFFFFF;
+}
