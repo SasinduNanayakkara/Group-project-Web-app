@@ -1,0 +1,95 @@
+               .main
+                 {
+                   width: 990px;
+                   border: 5px solid orange;
+                   height: 615px;
+                   background-image: url(../image/333.jpg);
+                   background-repeat: no-repeat;
+                   background-size: cover;
+                   margin-left: 190px;
+                }
+		.about
+		{
+	            font-size: 63px;
+		    text-align: center;
+		    letter-spacing: 10px;
+		    color: white;
+                    margin-right: -99px;
+		}
+		body
+		{
+	        background:Linear-gradient(-45deg,#0E7AEF,#EE7752,#23A6D5,dodgerblue,#4C89EA,#289CB8,#02739F,#2471A3,#0CA6B5,#148E9A,#0381B2,#15BFD0,#05A1DF,#1191B9,#2471A3,#0E7AEF,#19A9D1 );
+
+            	background-size:400% 400%;
+            	position: relative;
+            	animation:change 5s ease-in-out infinite;
+		}
+		@keyframes change
+            {
+
+            0% {
+            	background-position: 0 50%;
+               }
+
+            50%{
+            	background-position: 100% 0%;
+               }
+
+           100%{
+            	background-position: 0 50%;
+               }
+            }
+
+
+            .main2
+            {
+            	/*border: 1px solid white;*/
+			    width: 809px;
+			    height: 363px;
+			    /* padding: 10px; */
+			    margin: 65px 0px 0px 59px;
+		   }
+	        .para
+	        {
+	        	color: white;
+			    font-size: 21px;
+			    font-family: ui-sans-serif;
+			    /* letter-spacing: 0px;*/
+			    height: 254px;
+
+
+	        }
+	        .para:hover
+	        {
+	        	background-color:non;
+	        	border:0px solid white;
+	        }
+	        .header
+	        {
+
+			    position: relative;
+			    width: 922px;
+			    height: 119px;
+			    margin-left: 178px;
+		   }
+		   .our_team
+		   {
+		   	padding: 12px 67px 16px 63px;
+            margin: 28px 0px 2px 350px;
+            border-radius: 5px;
+            background-color: #1F4FB9;
+            font-weight: 600;
+            color:white;
+		   }
+		    .our_team:focus
+            {
+             	 border-color:dodgerBlue;
+                box-shadow:0 0 8px 0 dodgerBlue;
+            }
+
+
+
+
+
+
+
