@@ -1,0 +1,1353 @@
+/* header */
+.body {
+  /* background-image: url("../images/background/background-5.jpg");
+  background-size: cover; */
+
+  font-family: "Varela Round", sans-serif;
+}
+
+.background {
+  background-color: white;
+}
+.main {
+  /* margin: 3% 6%; */
+}
+.title {
+  margin: 3% 6%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  background-color: #d2ecf9;
+  /* height: 100px; */
+  width: 88%;
+  padding: 0px;
+}
+.icon-img {
+  width: 170px;
+  height: 120px;
+  /* padding-left: 85px; */
+}
+.title1 {
+  padding-top: 20px;
+}
+
+.search-bar {
+  float: right;
+  margin-top: 32px;
+  margin-left: 750px;
+  width: 205px;
+}
+#search-text {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 100px;
+  background: #f1f1f1;
+}
+.search-btn {
+  float: left;
+  width: 80px;
+  padding: 10px;
+  background: #2196f3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+.log {
+  /* height: 35px;
+  width: 90px;
+  border-radius: 12px;
+  margin-left: 250px;
+  margin-right: 60px; */
+  float: left;
+  width: 100px;
+  margin-top: 32px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  background: #2196f3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  position: static;
+}
+
+#search-text:hover {
+  background: #0b7dda;
+}
+
+#search-text::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.title1 {
+  height: 0px;
+  padding: 0%;
+  margin: 0%;
+}
+h1 {
+  font-size: 2rem;
+}
+
+/* navigation bar */
+
+.nav-bar {
+  padding: 0% 6%;
+}
+
+.background-image {
+  padding: 0% 6% 50px 6%;
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
+  width: 1322px;
+  height: 548px;
+  position: relative;
+}
+
+.Musify-name,
+.Music-center-name,
+.theme {
+  font-family: "Montserrat", sans-serif;
+  color: #90bfe6;
+}
+
+.Musify-name {
+  font-size: 8rem;
+  top: -600px;
+  left: 520px;
+}
+
+.Music-center-name {
+  font-size: 3rem;
+  top: -390px;
+  left: 570px;
+}
+
+.theme {
+  font-size: 1.5rem;
+  left: 500px;
+  top: -310px;
+}
+.animation {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.icon-guitars {
+  left: 50px;
+}
+.icon-image-guitar,
+.icon-image-drum {
+  margin-right: 190px;
+}
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0% 6% 50px 6%;
+}
+
+.icon-image-guitar,
+.icon-image-drum,
+.icon-image-keyboard {
+  width: 300px;
+  height: 120px;
+  -webkit-filter: blur(1px);
+  filter: blur(1px);
+  position: relative;
+  text-align: center;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+}
+.icon-name {
+  top: 820px;
+  color: white;
+  font-size: 3rem;
+  left: ;
+}
+
+.icon-image-drum:hover {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #000;
+}
+.icon-image-guitar:hover {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #000;
+}
+.icon-image-keyboard:hover {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #000;
+}
+
+.icon-name {
+  position: absolute;
+}
+
+.new-arrivals {
+  text-align: center;
+}
+
+.h {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  line-height: 1.5rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  color: white;
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: #0b7dda;
+  color: white;
+}
+li {
+  color: white;
+  text-decoration: none;
+  flex: 16.66%;
+  padding: 5px;
+}
+
+.footer-ul {
+  background-color: #1f5f8b;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.nav-start {
+  padding-left: 1%;
+}
+
+li {
+  float: left;
+  padding: 0 160px;
+  padding-left: 0%;
+  text-align: center;
+}
+.last {
+  padding-right: 0%;
+  padding-right: 0px;
+  /* margin-right: 1%; */
+}
+
+li a {
+  display: block;
+
+  text-align: center;
+  padding: 14px 0px;
+
+  text-decoration: none;
+}
+
+/* footer section */
+.contact {
+  width: 250px;
+  line-height: 2rem;
+  padding-right: 10px;
+}
+
+/* footer icons */
+.visa {
+  width: 5%;
+  height: 5%;
+}
+.master-card {
+  width: 5%;
+  height: 4%;
+}
+
+.row {
+  padding: 3% 6% 0%;
+}
+.row1 {
+  /* padding: 0% 7%; */
+}
+
+.card {
+  padding-right: 5%;
+  color: white;
+  padding-left: 10px;
+}
+.card-image {
+  padding-right: 0px;
+  width: 300px;
+  height: 100px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+/* footer icons */
+.visa {
+  width: 100px;
+  height: 100px;
+}
+.master-card {
+  width: 80px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+/* social media section */
+
+.social-items {
+  margin-left: 90px;
+  margin-right: 90px;
+  /* background-color: none; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  padding-left: 200px;
+}
+
+.text {
+  text-align: center;
+  background-color: #253b6e;
+  color: white;
+}
+
+/* login.php */
+/* login section */
+
+.login-div {
+  text-align: center;
+  border-style: solid;
+  border-width: medium;
+  width: 500px;
+  margin-left: 500px;
+  margin-top: 50px;
+}
+
+#username,
+#password {
+  width: 60%;
+  height: 30px;
+  border-radius: 10px;
+}
+
+#login,
+.create-acc {
+  border-radius: 20px;
+  width: 50%;
+  height: 30px;
+}
+
+#login:hover {
+  cursor: pointer;
+}
+
+.create-acc {
+  margin-bottom: 15px;
+}
+.create-acc:hover {
+  cursor: pointer;
+}
+
+.fogot-p {
+  text-decoration: underline;
+}
+.fogot-p:hover {
+  cursor: pointer;
+}
+.or1 {
+  width: 30px;
+}
+.fb-log,
+.gmail-log,
+.twitter-log {
+  width: 50px;
+  height: 50px;
+}
+.gmail-log {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.social-log {
+  margin-bottom: 32px;
+}
+
+/* payment-details.php */
+/* payment detail section */
+
+.payment-div {
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-width: medium;
+  width: 500px;
+  margin-left: 500px;
+  margin-top: 50px;
+  background-color: white;
+}
+
+.pay {
+  width: 50px;
+  height: 50px;
+}
+
+.pay-master {
+  height: 45px;
+}
+
+.label1 {
+  padding-left: 20px;
+}
+.label2 {
+  font-size: 0.8rem;
+}
+.star {
+  color: red;
+}
+
+#card-name,
+#card-number {
+  margin-left: 25px;
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+
+#card-number {
+  margin-left: 30px;
+}
+
+#exp-month {
+  width: 205px;
+  height: 30px;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+#cv-code {
+  height: 30px;
+  width: 60px;
+  border-radius: 5px;
+  padding-left: 5px;
+  margin-left: 60px;
+}
+
+.dis {
+  margin-left: 240px;
+  margin-bottom: 10px;
+}
+
+#pay-btn {
+  width: 250px;
+  height: 30px;
+  border-radius: 15px;
+  margin-left: 125px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.dis,
+.label2 {
+  line-height: 2px;
+}
+/* product-template */
+/* product-display-section */
+
+.product-div {
+  margin-left: 90px;
+  border-style: solid;
+  border-width: 1px;
+  margin-right: 90px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  grid-gap: 10px;
+  grid-auto-flow: column;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+.big-pic {
+  width: 200px;
+  height: 200px;
+  border-style: double;
+}
+
+.big-pic {
+  width: 330px;
+  height: 330px;
+  border-style: double;
+  margin-top: 50px;
+  margin-left: 20px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.g2 {
+}
+
+.g2,
+.g3,
+.g4 {
+  display: inline-block;
+  width: 100px;
+  height: 180px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  border-width: 1px;
+  border-style: solid;
+}
+.product-name {
+  display: inline-block;
+  /* margin-bottom: 50px; */
+  grid-auto-flow: row;
+}
+.product-title {
+  font-size: 2rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 400px 200px 0px;
+  grid-template-rows: auto auto;
+  grid-gap: 10px;
+}
+.item2 {
+  width: 500px;
+  margin-top: 50px;
+  /* padding-right: 750px; */
+}
+
+#qty {
+  width: 50px;
+}
+
+.price {
+  font-size: 3rem;
+  color: tomato;
+  margin: 0px;
+}
+
+.buy-btn,
+.cart-btn {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.buy-btn {
+  background-color: rgba(170, 243, 61, 0.788);
+  color: white;
+}
+
+.cart-btn {
+  background-color: tomato;
+  color: white;
+}
+
+.cart-img {
+  width: 20px;
+  height: 20px;
+  margin-top: 3px;
+}
+
+.similar-p {
+  margin: 10px 90px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-rows: auto auto;
+  grid-gap: 10px;
+  padding-left: 40px;
+}
+
+.g-card-1 {
+  margin-left: 0px;
+}
+
+.card-item {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+
+  /* margin-left: 10px; */
+}
+
+.item-grid {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 0px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-rows: auto auto;
+  grid-gap: 10px;
+  padding-left: 40px;
+}
+.item1 {
+  /* border-style: solid;
+  border-width: 1px; */
+  text-align: center;
+  margin-left: 10px;
+  padding-bottom: 5px;
+}
+
+.buy-b {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  /* margin-top: 10px; */
+}
+
+/* all products section */
+/* products-guitars.php */
+
+.all-products-div {
+  margin: 3% 6%;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+
+.product-grid-div {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-rows: auto auto;
+  grid-gap: 10px;
+}
+
+.all.pagination {
+  display: inline-block;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 600px;
+  margin-bottom: 50px;
+}
+
+.pagination {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.pagination a {
+  color: black;
+  background-color: rgba(0, 0, 0, 0.2);
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+
+/* delivery details section */
+
+.delivery-div {
+  padding: 3% 6%;
+  display: grid;
+  grid-template-columns: 100px 100px;
+  grid-template-rows: auto auto;
+  grid-gap: 20px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* all product guitars styles */
+
+.row-catrgory,
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-item {
+  background-color: white;
+}
+.products {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-rows: auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+/*My Profile page*/
+
+/*all buttons of profile page details*/
+
+*:focus {
+  outline: none;
+}
+
+.user-acc {
+  background-color: #60a3d9;
+  color: white;
+  border: 1px solid #60a3d9;
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+  margin: 0px;
+  transition: all 0.3s;
+}
+
+.user-acc:hover {
+  transform: scale(1.1);
+}
+
+/*profile photo details*/
+
+.user-acc-img {
+  box-sizing: border-box;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0;
+  border: 5px solid #60a3d9;
+  padding: 3px;
+  background-color: white;
+}
+
+/*form label details*/
+
+.la001 {
+  box-sizing: border-box;
+  font-size: 20px;
+  background-color: #60a3d9;
+  color: white;
+  border: 1px solid #60a3d9;
+  padding: 2px 15px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.la001:hover {
+  background-color: black;
+  color: white;
+}
+
+/*box details*/
+
+.box:hover {
+  width: 400px;
+  height: 600px;
+  border-radius: 5px;
+}
+/*side boxes*/
+
+.column_1 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  padding-left: 0%;
+  height: 450px; /* Should be removed. Only for demonstration */
+}
+
+.row_1:after {
+  padding-right: 0%;
+  padding-right: 0px;
+  content: "";
+  display: table;
+  clear: both;
+  margin: 0px;
+}
+
+.rowx {
+  margin: 0 auto;
+  padding-left: 420px;
+  border: black;
+}
+/*my profile sentence words*/
+
+.h01 {
+  color: rgb(167, 168, 192);
+  -webkit-text-stroke: 0.3vw black;
+}
+
+/*music lesson page*/
+.rowy {
+  padding: 3% 6% 0%;
+}
+
+/*background image details */
+
+div.ab {
+  background-repeat: no-repeat;
+  background-image: url("images/musify lessons/guiter-learn1.jpg");
+  background-size: 100%;
+  height: 450px;
+  padding-top: 100px;
+  background-position: center;
+  margin: 0px;
+}
+
+/*make two columns to background image with form*/
+
+.ab {
+  display: flex;
+}
+
+.ab1 {
+  flex: 90% 10%;
+}
+
+/*the form on background image details*/
+
+.f0001 {
+  position: absolute;
+  right: 100px;
+  margin: 20px;
+  max-width: 400px;
+  padding: 16px;
+  background-color: #1891ac;
+}
+/*register and login button details*/
+
+.imglog-btn0001 {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.imglog-btn0001:hover {
+  opacity: 1;
+}
+
+/*musify rate*/
+
+/*musify rate background box details*/
+
+div.ac {
+  background-color: #9999ff;
+  height: 20%;
+  width: 100%;
+  border: 0px solid black;
+  padding: 5px;
+  margin: 0px;
+}
+
+/*make three columns*/
+
+.ac {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.ac1 {
+  flex: 33.33%;
+  padding: 20px;
+}
+
+/*
+.reg_001 button {
+
+background-color: rgba(170, 243, 61, 0.788);
+  color: white;
+  border:1px solid #3498db;
+  height:40px;
+  width:150px;
+  border-radius: 5px;
+  margin: 0px;
+  transition: all 0.3s;
+
+}
+
+.re_001 button:hover {
+background-color: #555;
+color: white;
+}
+*/
+
+/*
+div.ac{
+
+}
+
+div.ac1 {
+  background-image:url("images/learning-drum.jpg");
+  background-repeat:no-repeat;
+  background-position:left center;
+background-size: 100%;
+width:400px;
+  height:300px;
+  padding-top:50px;
+}
+
+div.ac2{
+
+
+}*/
+
+/*
+* {
+box-sizing: border-box;
+}
+
+.ac1 {
+float: left;
+width: 33.33%;
+padding: 5px;
+width: 435;
+height:400;
+}
+
+.ac::after {
+content: "";
+clear: both;
+display: table;
+
+}*/
+
+/*three equal columns images*/
+
+.img00001 {
+  width: 250px;
+  height: 200px;
+}
+
+/*enter three columns details*/
+
+.ad {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.ad1 {
+  flex: 33.33%;
+  padding: 20px;
+}
+
+/*video and how to be professional background edit*/
+
+div.ae {
+  background-color: #9999ff;
+  height: 20%;
+  width: 100%;
+  border: 0px solid black;
+  padding: 5px;
+  margin: 0px;
+}
+
+/*Spearate and create two columns*/
+
+.ae1 {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.ae::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*we will teach you to be professional header details*/
+
+.h002 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #f2f2f2;
+}
+
+/*form word style*/
+
+/*form lable decorate*/
+
+.la002 {
+  box-sizing: border-box;
+  font-size: 20px;
+  background-color: #60a3d9;
+  color: white;
+  border: 1px solid #60a3d9;
+  padding: 2px 15px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.la002:hover {
+  background-color: black;
+  color: white;
+}
+.af {
+}
+.ag {
+  display: flex;
+}
+
+/* Create four equal columns that sits next to each other */
+.ag1 {
+  flex: 25%;
+  padding: 20px;
+}
+
+/*instructors photoes*/
+
+.img00003 {
+  height: 120px;
+}
+
+/* contact us page */
+/* 
+.contact-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+} */
+/* 
+.conatct-button {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.conatct-form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+} */
+
+.my-element {
+  /* display: inline-block; */
+  margin: 0 0.5rem;
+
+  animation: zoomIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.background-icon-image {
+  position: relative;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sign_up_with {
+  font-size: 20px;
+}
+.musifyclass {
+  font-style: italic;
+  font-weight: bold;
+  margin-right: 10px;
+  font-size: 25px;
+}
+.musifybutton {
+  border-radius: 20px;
+  padding: 10px 7px 7px 10px;
+  outline: none;
+  width: 70%;
+  margin-left: 30px;
+  background-color: dodgerblue;
+  color: white;
+  font-weight: bold;
+}
+.musifybutton:hover {
+  background-color: blue;
+}
+.musifyh3 {
+  font-size: 15px;
+  margin-left: 25px;
+  font-style: italic;
+}
+.musify {
+  margin-right: 5%;
+  color: white;
+}
+
+.input111:focus {
+  border-color: dodgerBlue;
+  box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+.lo {
+  border-radius: 127px;
+  width: 3%;
+}
+
+.heading-bar {
+  display: flex;
+}
+
+.heading-item {
+  flex: 33.3%;
+}
+
+/*contact heading*/
+
+.contact-heading {
+  /* margin-left:345px;*/
+  color: white;
+}
+
+/*contact button*/
+
+.contact-button {
+  margin-left: 302px;
+  border-radius: 15px;
+  padding: 10px 7px 7px 10px;
+  outline: none;
+  width: 28%;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.contact-button:hover {
+  background-color: blue;
+}
+
+/*label styles*/
+
+.lab001 {
+  margin-left: 160px;
+  color: white;
+}
+
+/* contact us page */
+
+.contact-input {
+  width: 68%;
+  padding: 12px;
+  border: 1px solid white;
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  margin-left: 160px;
+  text-transform: lowercase;
+}
+
+/*contact-us horizotel lines details*/
+
+.hr0001 {
+  border-left: 3px solid white;
+}
+
+.hr0002 {
+  border: 1.6px solid white;
+  width: 500px;
+  margin-right: 139px;
+}
+
+/*create two columns*/
+
+.fl001 {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+
+.fl002 {
+  flex: 50%;
+  padding: 20px;
+}
+
+/*contact form label details*/
+
+.mpd001 {
+  color: white;
+  margin-left: 215px;
+}
+
+/*contact form input details*/
+
+.mpd002 {
+  color: white;
+  margin-left: 215px;
+}
+
+/* top brands*/
+
+.rowxy {
+  padding: 3% 6% 0%;
+}
+
+.img00005 {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 600px;
+  background-position: center;
+  margin: 0px;
+  text-transform: uppercase;
+}
+.h003 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Slideshow container */
+.ba {
+  position: relative;
+  margin: auto;
+}
+
+/* Number text (1/3 etc) */
+.noText001 {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot001 {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade001 {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade001 {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade001 {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bb {
+}
+
+.v002 {
+  margin: 0px;
+  padding: 5px;
+}
+
+.bc {
+  display: flex;
+}
+
+/* Create four equal columns that sits next to each other */
+.bc1 {
+  flex: 25%;
+  padding: 5px;
+}
+
+.bc1 {
+  margin: 5px;
+  border: 1px solid #000000;
+  float: left;
+  width: 50px;
+  background-color: #ffffff;
+  background-position: center;
+  box-shadow: 1px 1px 10px 5px #c0c0c0;
+  height: 100px;
+}
+
+div.bc1:hover {
+  border: 1px solid #008080;
+  box-shadow: 1px 1px 10px 5px #ffffff;
+}
+
+.refund {
+  width: 662px;
+  /*border: 1px solid white;*/
+  padding-left: 480px;
+}
+#return-name {
+  border-radius: 15px;
+  padding: 5px 71px 5px 84px;
+}
+.day {
+  padding: 8px 29px 7px 7px;
+  border-radius: 10px;
+}
+.submitt {
+  padding: 8px 37px 8px 37px;
+  color: white;
+  cursor: pointer;
+  background-color: dodgerblue;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.submitt:hover {
+  background-color: blue;
+}
+.nameee {
+  color: white;
+  font-size: 48px;
+}
+#return-reason {
+  border-radius: 10px;
+}
+.na {
+  font-size: 20px;
+}

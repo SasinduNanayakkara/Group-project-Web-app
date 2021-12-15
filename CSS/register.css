@@ -1,0 +1,113 @@
+.logo {
+  border-radius: 200px;
+  width: 3.5%;
+  margin-left: 15px;
+}
+input[type="text"] {
+  border-radius: 20px;
+  padding: 5px 5px 5px 5px;
+  outline: none;
+  width: 20%;
+}
+input[type="password"] {
+  border-radius: 20px;
+  padding: 5px 5px 5px 5px;
+  outline: none;
+  width: 20%;
+}
+input[type="email"] {
+  border-radius: 20px;
+  padding: 5px 5px 5px 5px;
+  outline: none;
+  width: 20%;
+}
+input[type="tel"] {
+  border-radius: 20px;
+  padding: 5px 5px 5px 5px;
+  outline: none;
+  width: 20%;
+}
+.button_for_sign_up {
+  border-radius: 20px;
+  padding: 5px 5px 5px 5px;
+  outline: none;
+  width: 10%;
+  margin-left: 5%;
+  background-color: dodgerblue;
+  color: white;
+  font-weight: bold;
+}
+.button_for_sign_up:hover {
+  background-color: blue;
+}
+.main {
+  width: 100%;
+  margin: 0px;
+}
+.create {
+  font-style: italic;
+  font-weight: bold;
+  /*text-decoration: underline;*/
+  font-size: 50px;
+}
+.form {
+  font-family: cursive;
+  padding-left: 20%;
+  color: white;
+}
+.musify {
+  float: right;
+  padding-top: 10%;
+  padding-right: 15%;
+}
+.header {
+  padding-left: 20%;
+  color: white;
+}
+.sign_up_with {
+  font-size: 20px;
+}
+.musifyclass {
+  font-style: italic;
+  font-weight: bold;
+  margin-right: 10px;
+  font-size: 25px;
+}
+.musifybutton {
+  border-radius: 20px;
+  padding: 10px 7px 7px 10px;
+  outline: none;
+  width: 70%;
+  margin-left: 30px;
+  background-color: dodgerblue;
+  color: white;
+  font-weight: bold;
+}
+.musifybutton:hover {
+  background-color: blue;
+}
+.musifyh3 {
+  font-size: 15px;
+  margin-left: 25px;
+  font-style: italic;
+}
+.musify {
+  margin-right: 5%;
+  color: white;
+}
+input[type="text"]:focus {
+  border-color: dodgerBlue;
+  box-shadow: 0 0 8px 0 dodgerBlue;
+}
+input[type="password"]:focus {
+  border-color: dodgerBlue;
+  box-shadow: 0 0 8px 0 dodgerBlue;
+}
+input[type="tel"]:focus {
+  border-color: dodgerBlue;
+  box-shadow: 0 0 8px 0 dodgerBlue;
+}
+input[type="email"]:focus {
+  border-color: dodgerBlue;
+  box-shadow: 0 0 8px 0 dodgerBlue;
+}
